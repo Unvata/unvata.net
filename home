@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あんばたねっと！</title>
+    <link rel="stylesheet" href="D:\[Unvata.net]Folder\style.css">
+
+    <link rel="icon" type="png" 
+    href="D:\[Unvata.net]Folder\画像\noname.png">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="">
+              <img src="画像\ロゴ.png" width="300" alt="あんばたねっと！/Unvata.net!">
+            </a>
+          </h1>
+    </header>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+ <h2>-information-</h2>
+ <p>
+    Unvataです！YoutubeやTwitterなどで主に活動しています。<br>このサイトでは、Unvataのダウンロードコンテンツや記事、過去の作品などを閲覧することができます！
+ </p>
+
+</body>
+
+</html>
