@@ -75,6 +75,7 @@ main {
   display: flex;
   align-items: center;
   background: #d4d4d4;
+  border-radius: 10px;
 }
 .nav {
   margin-left: auto;
@@ -122,4 +123,7 @@ html {
   border-right: 3px solid #000;
   transform: translateY(20%) rotate(-45deg);
 }
-
+.attention {
+  text-align: left;
+  font-size: x-small
+}
