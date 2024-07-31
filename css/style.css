@@ -37,7 +37,7 @@ a:visited {
   color: #383838;
 }
 a:hover{
-  color: #33a3c5;
+  color: #18bedb;
 }
 a:active{
   color: #383838;
@@ -66,7 +66,7 @@ main {
     }
 
 .logo {
-  margin: 20px 0 40px 0;
+  margin: 20px 0 20px 0;
   line-height: 0;
   text-align: left;
   margin-left: 20px;
@@ -74,6 +74,7 @@ main {
 .header {
   display: flex;
   align-items: center;
+  background: #d4d4d4;
 }
 .nav {
   margin-left: auto;
@@ -81,3 +82,44 @@ main {
 .nav-list {
   display: flex;
 }
+.main- {
+  text-align: center;
+  align-items: center;
+}
+.lowerlogo {
+  text-align: center;
+  align-items: center;
+}
+
+.copy {
+  font-size: x-small;
+  text-align: center;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+.pagetop {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #fff;
+  border: solid 2px #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.pagetop__arrow {
+  height: 10px;
+  width: 10px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: translateY(20%) rotate(-45deg);
+}
+
