@@ -47,17 +47,15 @@ a{
 }
 li{
   list-style:none;
-  width: 100%;
 }
 .nav :not(:first-child) {
-  margin-left: 20px;
+  margin-left: 40px;
   }
 main {
   padding-top: 80px;
   }
 .nav {
   margin-right: 20px;
-  width: 100%;
 }
 .nav-list {
   width: 100%;
@@ -68,16 +66,12 @@ main {
     padding: 0 40px;
     box-sizing: content-box;
     }
-.loggo {
-  width: 100%;
-  min-width: 20%;
-}
+
 .logo {
   margin: 20px 0 40px 0;
   line-height: 0;
   text-align: left;
   margin-left: 20px;
-  min-width: 20%;
 }
 .header {
   display: flex;
