@@ -57,9 +57,7 @@ main {
 .nav {
   margin-right: 20px;
 }
-.nav-list {
-  width: 100%;
-}
+
 .inner {
     max-width: 1000px;
     margin: 0 auto;
