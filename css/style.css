@@ -31,16 +31,16 @@ a{
   transition: color 0.2s;
 }
 a:link {
-  color: #383838;
+  color: #ffffff;
 }
 a:visited {
-  color: #383838;
+  color: #ffffff;
 }
 a:hover{
   color: #18bedb;
 }
 a:active{
-  color: #383838;
+  color: #ffffff;
 }
 a{
   text-decoration: none;
@@ -74,7 +74,7 @@ main {
 .header {
   display: flex;
   align-items: center;
-  background: #d4d4d4;
+  background: #363636;
   border-radius: 10px;
     position: -webkit-sticky;
     position: sticky;
@@ -93,6 +93,7 @@ main {
 .lowerlogo {
   text-align: center;
   align-items: center;
+  margin:0.5em;
 }
 
 .copy {
@@ -129,4 +130,20 @@ html {
 .attention {
   text-align: left;
   font-size: x-small
+}
+.section {
+  align-items: center;
+  display: flex;/*必須*/
+  flex-wrap: wrap;/*必須*/
+  width:60rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img {
+  align-items: center;
+  width: 20%;/*必須*/
+  padding:0;
+  margin:0.5em;
 }
