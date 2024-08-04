@@ -26,7 +26,10 @@ h2 {
   padding-bottom: 5px;
   padding-right: 5px;
 }
-
+.menu-txt {
+  color: #363636;
+  padding: 0.5em;
+}
 a{
   transition: color 0.2s;
 }
@@ -142,8 +145,40 @@ html {
   margin-right: auto;
 }
 .img {
+  
   align-items: center;
   width: 20%;/*必須*/
   padding:0;
   margin:0.5em;
+  overflow: hidden;
+  position: relative;
+  object-fit: contain;
+}
+.a {
+  display: flex;
+  margin:0.5em;
+  border: solid;
+  border-radius: 10px;
+  
+}
+
+.artwork {
+  display: flex;
+  justify-content: center; /* 水平方向にセンターに配置 */
+  align-items: center;
+  margin:0 auto 5%;
+}
+.artwork .art1 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0.5em;
+  border: solid;
+  border-color: #cacaca;
+  border-width: 1px;
+  border-radius:5%;
+  cursor: pointer;
+  &:hover {
+    scale: 1.1;
+  }
 }
