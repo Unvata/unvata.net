@@ -182,3 +182,14 @@ html {
     scale: 1.1;
   }
 }
+
+.youtube {
+  border-radius: 25px;
+}
+.setsumei {
+  font-size: medium;
+}
+.twitter-timeline {
+  padding-left: 325px;
+  padding-right: 325px;
+}
