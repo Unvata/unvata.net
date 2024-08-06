@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-body{ 
-    background-color: #ffffff
+body {
+  background-color: #ffffff
 }
-.m{
+
+.m {
   font-family: "M PLUS 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -13,7 +14,7 @@ body{
 
 html * {
   box-sizing: border-box;
- }
+}
 
 h2 {
   border-bottom: 3px dashed #d4d4d4;
@@ -26,47 +27,73 @@ h2 {
   padding-bottom: 5px;
   padding-right: 5px;
 }
+
 .menu-txt {
   color: #363636;
   padding: 0.5em;
 }
-a{
+
+.content {
+  background-color: #363636;
+}
+
+a {
   transition: color 0.2s;
 }
+
 a:link {
   color: #ffffff;
 }
+
 a:visited {
   color: #ffffff;
 }
-a:hover{
+
+a:hover {
   color: #18bedb;
 }
-a:active{
+
+a:active {
   color: #ffffff;
 }
-a{
+
+a {
   text-decoration: none;
 }
-li{
-  list-style:none;
+
+li {
+  list-style: none;
+}
+
+h4 {
+  text-align: left;
+}
+
+.l-txt {
+  text-align: left;
+}
+
+.small-txt {
+  font-size: small;
 }
 .nav :not(:first-child) {
   margin-left: 40px;
-  }
+}
+
 main {
   padding-top: 80px;
-  }
+}
+
 .nav {
   margin-right: 20px;
 }
 
 .inner {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 40px;
-    box-sizing: content-box;
-    }
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: content-box;
+}
 
 .logo {
   margin: 20px 0 20px 0;
@@ -74,29 +101,34 @@ main {
   text-align: left;
   margin-left: 20px;
 }
+
 .header {
   display: flex;
   align-items: center;
   background: #363636;
   border-radius: 10px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
+
 .nav {
   margin-left: auto;
 }
+
 .nav-list {
   display: flex;
 }
+
 .main- {
   text-align: center;
   align-items: center;
 }
+
 .lowerlogo {
   text-align: center;
   align-items: center;
-  margin:0.5em;
+  margin: 0.5em;
 }
 
 .copy {
@@ -108,6 +140,7 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
 .pagetop {
   height: 50px;
   width: 50px;
@@ -130,44 +163,53 @@ html {
   border-right: 3px solid #000;
   transform: translateY(20%) rotate(-45deg);
 }
+
 .attention {
   text-align: left;
   font-size: x-small
 }
+
 .section {
   align-items: center;
-  display: flex;/*必須*/
-  flex-wrap: wrap;/*必須*/
-  width:60rem;
+  display: flex;
+  /*必須*/
+  flex-wrap: wrap;
+  /*必須*/
+  width: 60rem;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .img {
-  
+
   align-items: center;
-  width: 20%;/*必須*/
-  padding:0;
-  margin:0.5em;
+  width: 20%;
+  /*必須*/
+  padding: 0;
+  margin: 0.5em;
   overflow: hidden;
   position: relative;
   object-fit: contain;
 }
+
 .a {
   display: flex;
-  margin:0.5em;
+  margin: 0.5em;
   border: solid;
   border-radius: 10px;
-  
+
 }
 
 .artwork {
   display: flex;
-  justify-content: center; /* 水平方向にセンターに配置 */
+  justify-content: center;
+  /* 水平方向にセンターに配置 */
   align-items: center;
-  margin:0 auto 5%;
+  margin: 0 auto 5%;
 }
+
 .artwork .art1 {
   width: 200px;
   height: 200px;
@@ -176,8 +218,9 @@ html {
   border: solid;
   border-color: #cacaca;
   border-width: 1px;
-  border-radius:5%;
+  border-radius: 5%;
   cursor: pointer;
+
   &:hover {
     scale: 1.1;
   }
@@ -186,10 +229,31 @@ html {
 .youtube {
   border-radius: 25px;
 }
+
 .setsumei {
   font-size: medium;
 }
+
 .twitter-timeline {
   padding-left: 325px;
   padding-right: 325px;
+}
+
+.contents {
+  padding-left: 0;
+  padding: 0.5em;
+
+}
+
+.content {
+  border-radius: 20px;
+
+}
+
+.upper {
+  margin-top: 400px;
+}
+
+.upper-m {
+  margin-top: 200px;
 }
