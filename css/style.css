@@ -257,3 +257,59 @@ html {
 .upper-m {
   margin-top: 200px;
 }
+
+.dl-img {
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 1em;
+  border: solid;
+  border-color: #cacaca;
+}
+
+.dl-box {
+  border-radius: 20px;
+  background-color: #363636;
+  width: 340px;
+  height: 600px;
+  display: flex;
+  flex-flow: column;
+}
+
+.dl-zentai {
+  display: flex;
+}
+.dl-img-2 {
+  width: 500px;
+  height: 500px;
+  margin: 1em;
+  border: solid;
+  border-color: #cacaca;
+}
+
+.dl-setsumei {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  width: 600px;
+
+}
+
+.setsumei {
+  margin: 1em;
+}
+
+.dl-dl-box {
+  margin-left: 1em;
+ text-align: left;
+}
+
+.dl-button {
+  margin-top: 1em;
+  width: 50%;
+  border-radius: 50px;
+}
+
+footer {
+  margin-top: 200px;
+}
