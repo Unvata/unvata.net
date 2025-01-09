@@ -237,6 +237,7 @@ html {
 .twitter-timeline {
   padding-left: 325px;
   padding-right: 325px;
+  height: 600px;
 }
 
 .contents {
